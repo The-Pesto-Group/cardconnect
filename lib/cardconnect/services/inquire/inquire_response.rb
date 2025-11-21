@@ -6,7 +6,8 @@ module CardConnect
       FIELDS = [
         :merchid, :account, :amount, :currency, :retref, :respcode,
         :respproc, :respstat, :resptext, :setlstat, :capturedate, :batchid,
-        :token, :authdate, :lastfour, :name, :settledate, :expiry
+        :token, :authdate, :lastfour, :name, :settledate, :expiry, :voidable,
+        :refundable
       ].freeze
 
       # Settlement Status
